@@ -8,7 +8,7 @@ Utilizaremos **Visual Studio Code** porque nos ofrece extensión que nos simplif
 
 ### EXTENSIONES 
 
-Bien, como he dicho, utilizaremos esta herramienta por sus extensiones. ¿Qué extensiones?. Pues bien, las siguientes:
+Bien, como he dicho, utilizaremos esta herramienta por sus extensiones las son:
 
 + Angular V11 Snippets
 + Bracket Pair Colorizer
