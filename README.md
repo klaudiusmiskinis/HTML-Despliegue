@@ -4,6 +4,7 @@
 ¡Bienvenido!, aquí vas a encontrar un pequeño proyecto dedicado a desarrollar una infraestructura para una aplicacion web hecha con **Angular**.
 
 Puedes ver mi proyecto en GitPages [aquí](https://klaudiusmiskinis.github.io/despligue/)
+
 Puedes ver mi proyecto en Heroku [aquí](https://despligue.herokuapp.com/)
 
 
