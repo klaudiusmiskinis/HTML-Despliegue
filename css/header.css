@@ -6,7 +6,7 @@
   position: relative;
   z-index: 30;
   transition: 1s;
-  filter: blur(10px);
+  filter: grayscale(100%);
 }
 
 .header:hover {

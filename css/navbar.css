@@ -7,7 +7,6 @@
   max-width: 200px;
   background-color: var(--dark-color);
   z-index: 99;
-  box-shadow: #246 2px 2px 10px;
 }
 
 .navbar > .logo {
@@ -19,7 +18,7 @@
   text-align: center;
   height: 36px;
   background-color: var(--dark-color);
-  font-size: 26px;
+  font-size: 24px;
   line-height: 36px;
 }
 
@@ -44,7 +43,7 @@
   top: 0;
   left: 0;
   width: 36px;
-  height: 36 px;
+  height: 36px;
   font-size: 28px;
   cursor: pointer;
 }
@@ -62,7 +61,6 @@
     0 16px 0 0 var(--light-color);
   cursor: pointer;
 } 
-
 
 .navbar-list {
   list-style: none;
@@ -90,12 +88,11 @@
   display: block;
   padding: 1rem;
   transition: 1s;
-  border-radius: 3px;
 }
 
 .navbar-list .navbar-item a:hover {
   background-color: var(--primary-color);
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .navbar-list .navbar-item:first-child {
