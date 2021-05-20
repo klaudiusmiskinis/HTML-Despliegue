@@ -14,10 +14,25 @@ input[type="email"] {
   padding: .25rem;
 }
 
+input {
+  transition: 1s;
+  border-bottom: solid 2px var(--dark-color);
+  box-shadow: 0 4px 2px -2px var(--dark-color);
+}
+
+input:hover {
+  transition: 1s;
+  background-color: var(--forms-color);
+  color: var(--dark-color);
+  border-bottom: solid 2px var(--primary-color);
+  box-shadow: 0 4px 2px -2px var(--primary-color);
+}
+
 input[type="text"]:focus,
 input[type="email"]:focus {
   outline: none;
   border: 0;
+  box-shadow: 0 4px 2px -2px var(--dark-color);
   border-bottom: solid 2px var(--primary-color);
   background-color: var(--forms-color);
   color: var(--dark-color);
@@ -25,6 +40,8 @@ input[type="email"]:focus {
 
 input + label {
   display: inline-block;
+  outline: none;
+  box-shadow: 0 4px 2px -2px var(--dark-color);
 }
 
 textarea {
@@ -32,35 +49,60 @@ textarea {
   padding: .25rem;
   font-size: 1.25rem;
   background-color: var(--dark-color);
-  color: var(--forms-color);
+  color: var(--dark-color);
   outline: none;
-  border: 0;
-  border-left: solid 1px var(--forms-color);
-  border-top: solid 1px var(--forms-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 4px 2px -2px var(--dark-color);
+}
+
+textarea:hover {
+  transition: 1s;
+  background-color: var(--forms-color);
+  color: var(--dark-color);
+  box-shadow: 0 4px 2px -2px var(--primary-color);
 }
 
 textarea:focus {
-  color: var(--forms-color);
+  color: var(--dark-color);
+  box-shadow: 0 4px 2px -2px var(--dark-color);
   background-color: var(--forms-color);
   border-left: solid 5px var(--primary-color);
   border-top: solid 1px var(--primary-color);
+  border-bottom: solid 2px var(--primary-color);
+}
+
+input[type="submit"]{
+  box-shadow: 0 4px 2px -2px var(--dark-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 5px;
+}
+
+input[type="submit"]:hover{
+  color: var(--dark-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 5px;
+  box-shadow: 0 4px 2px -2px var(--primary-color);
 }
 
 button:active,
 input[type="button"],
-input[type="submit"],
 input[type="reset"] {
   font-size: 1.25rem;
   padding: .5rem 2rem;
   background-color: var(--dark-color);
   border-radius: 3px;
   color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 4px 2px -2px var(--dark-color);
 }
 
 /* Personalización del checkbox */
 .checkbox {
   position: relative;
   padding: 1rem 0;
+  outline: none;
 }
 
 .checkbox input[type="checkbox"] {
@@ -69,6 +111,7 @@ input[type="reset"] {
   position: absolute;
   top: 0;
   left: 0;
+  outline: none;
 }
 
 .checkbox label::before {
