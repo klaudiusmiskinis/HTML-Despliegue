@@ -1,8 +1,9 @@
 :root {
-  --font-size: 16px;
-  --primary-color: #d65a31;
-  --dark-color: #000033;
+  --font-size: 18px;
+  --primary-color: #9a8866;
+  --dark-color: #000000;
   --light-color: #eeeeee;
+  --forms-color: #9a8866;
 
   --md-break: 480px;
   --lg-break: 1024px;

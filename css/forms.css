@@ -7,10 +7,10 @@ input[type="email"] {
   display: block;
   background-color: var(--dark-color);
   border: 0;
-  border-bottom: solid 1px var(--light-color);
+  border-bottom: solid 1px var(--forms-color);
   width: 100%;
   font-size: 1.25rem;
-  color: var(--light-color);
+  color: var(--forms-color);
   padding: .25rem;
 }
 
@@ -19,7 +19,7 @@ input[type="email"]:focus {
   outline: none;
   border: 0;
   border-bottom: solid 2px var(--primary-color);
-  background-color: var(--light-color);
+  background-color: var(--forms-color);
   color: var(--dark-color);
 }
 
@@ -32,29 +32,29 @@ textarea {
   padding: .25rem;
   font-size: 1.25rem;
   background-color: var(--dark-color);
-  color: var(--light-color);
+  color: var(--forms-color);
   outline: none;
   border: 0;
-  border-left: solid 1px var(--light-color);
-  border-top: solid 1px var(--light-color);
+  border-left: solid 1px var(--forms-color);
+  border-top: solid 1px var(--forms-color);
 }
 
 textarea:focus {
-  color: var(--dark-color);
-  background-color: var(--light-color);
+  color: var(--forms-color);
+  background-color: var(--forms-color);
   border-left: solid 5px var(--primary-color);
   border-top: solid 1px var(--primary-color);
 }
 
-button,
+button:active,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
   font-size: 1.25rem;
   padding: .5rem 2rem;
-  border: solid 1px #a62a01;
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--dark-color);
+  border-radius: 3px;
+  color: var(--primary-color);
 }
 
 /* Personalización del checkbox */

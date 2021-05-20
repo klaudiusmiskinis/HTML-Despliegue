@@ -71,6 +71,7 @@
   margin: 0;
   padding-top: 36px;
   height: 100vh;
+  transition: 1s;
 
   /* para el burger menu */
   /* primero estará oculta */
@@ -82,11 +83,14 @@
   margin: 0 .25rem;
   padding: 0;
   width: 100%;
+  transition: 1s;
 }
 
 .navbar-list .navbar-item a {
   display: block;
   padding: 1rem;
+  transition: 1s;
+  border-radius: 3px;
 }
 
 .navbar-list .navbar-item a:hover {
